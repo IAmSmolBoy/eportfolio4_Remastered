@@ -43,6 +43,7 @@ setTimeout(() => {
             setTimeout(() => {
                 navbarItems[i].style.animation = "fade 0.4 linear"
                 navbarItems[i].style.background = "white"
+                navLinks[i].style.cursor = "pointer"
                 navbarItems[i].addEventListener("mouseover", function() {
                     this.style.background = "gray"
                     navLinks[i].style.color = "white"
