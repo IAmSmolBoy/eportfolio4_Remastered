@@ -1,0 +1,12 @@
+.projectLink {
+    text-decoration: none;
+    color: white;
+    width: max-content;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+}
+.projectLink:hover {
+    text-decoration: underline;
+}

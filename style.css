@@ -1,0 +1,47 @@
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+@keyframes fade {
+    0% {background: black}
+    50% {background: gray}
+    100% { background: white}
+}
+body.body {
+    display: flex;
+    height: 100vh;
+}
+#AI {
+    animation: blink-caret 0.5s step-end infinite;
+    border-right: .15em solid white;
+    font-size: 5vw;
+    padding: 0;
+}
+main.main {
+    width: 100vw;
+}
+.navbarLink {
+    color: black;
+    text-decoration: none;
+    padding: 1vh 1vw;
+    transition: .25s linear;
+}
+.navList {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+}
+.navItem {
+    list-style: none;
+    transition: .25s linear;
+    margin: 0 auto;
+    font-size: 1.75vh;
+    padding: 1vh 0;
+    background: black;
+}
+.center {
+    width: max-content;
+    margin: 0 auto;
+}

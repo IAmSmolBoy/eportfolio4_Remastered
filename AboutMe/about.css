@@ -1,0 +1,28 @@
+main.main {
+    top: 0;
+    margin-top: 7.5vh;
+}
+.center {
+    margin: 0 auto;
+    width: max-content;
+}
+.about {
+    width: 60vw;
+    text-align: center;
+}
+.socialSect {
+    display: flex;
+    width: 15vw;
+    justify-content: center;
+}
+.scaling {
+    height: 5vh;
+    transition: 0.25s linear;
+}
+.socialLink {
+    height: 5vh;
+    margin: 0 auto;
+}
+.scaling:hover {
+    transform: scale(1.5);
+}

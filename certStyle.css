@@ -1,0 +1,48 @@
+main.main {
+    width: 80vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.center {
+    margin: 0 auto;
+    width: max-content;
+}
+nav.navbar {
+    width: 98.5vw;
+}
+body.body {
+    width: 98.5vw;
+}
+.headerRow.row {
+    margin-top: 5vh;
+}
+.rowList {
+    padding: 0;
+    margin: 0;
+}
+.certImg {
+    width: 30vw;
+    transition: ease-in-out 0.25s;
+}
+.certImg:hover {
+    cursor: pointer;
+}
+.row {
+    list-style: none;
+    display: flex;
+    margin-top: 1vh;
+}
+.certHeader {
+    width: 30vw;
+    text-align: center;
+}
+.imgDiv {
+    margin: 0 auto;
+}
+.certImgSingle {
+    height: 60vh;
+    max-width: 80vw;
+}
+img.enlarge {
+    transform: scale(1.2);
+}

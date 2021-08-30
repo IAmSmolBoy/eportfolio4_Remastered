@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../background.css">
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="about.css">
+    <title>About Me</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navList">
+            <li class="navItem"><a class="navLink" href="../AcademicAchievemnts/academic.html">Academic Achievemnts</a></li>
+            <li class="navItem"><a class="navLink" href="../Leadership&CCA/leadership.html">Leadership and CCA</a></li>
+            <li class="navItem"><a class="navLink" href="../Projects/projects.html">IT</a></li>
+            <li class="navItem"><a class="navLink" href="../Skills&Tech/skills.html">Skills and Technology</a></li>
+            <li class="navItem"><a class="navLink" href="../Sports&Arts/sports.html">Sports and Arts</a></li>
+            <li class="navItem last"><a class="navLink" target="_blank" href="../Testimonal.pdf">Testimonial</a></li>
+        </ul>
+    </nav>
+    <main class="main center">
+        <div class="center">
+            <img class="profilePic center" src="../assets/Filler Image.png" alt="Profile picture">
+        </div>
+        <br>
+        <h2 class="about center">Hello, my name is Goh Hong Rui. I started taking programming lessons when I was in primary school and took part in a hackathon in 2019. I like the sense of achievement that I obtain from overcoming a challenging obstacle and thus enjoy working on projects or learning new subjects.</h2>
+        <br>
+        <h1 class="socialHeader center">Socials</h1>
+        <section class="socialSect center">
+            <a class="socialLink gmailLink" href="mailto:gohhongrui@gmail.com"><img class="scaling gmailLogo" src="../assets/Gmail logo.png" alt="Gmail"></a>
+            <button class="copyButton" onclick="copyEmail()">Copy Email</button>
+            <a class="socialLink" target=_blank href="https://github.com/IAmSmolBoy"><img src="../assets/github logo.png" class="scaling githubLogo" alt="Github"></a>
+        </section>
+    </main>
+    <script>
+        function copyEmail() {
+            navigator.clipboard.writeText("gohhongrui@gmail.com")
+        }
+    </script>
+</body>
+</html>

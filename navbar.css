@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+.navbar {
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background: black;
+    z-index: 1;
+    background-size: cover;
+}
+.navList {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.navItem {
+    list-style: none;
+    padding: 1vh 0;
+    transition: .5s;
+}
+.navLink {
+    text-decoration: none;
+    color: white;
+    padding: 1vh 1vw;
+    font-family: 'Lato', sans-serif;
+}
+.navItem:hover {
+    background: rgb(64, 64, 64);
+}
+.last {
+    margin-left: auto;
+}
